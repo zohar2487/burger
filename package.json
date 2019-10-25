@@ -1,18 +1,28 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "burger",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"node server.js\"",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zohar2487/burger.git"
+  },
+  "author": "zohar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zohar2487/burger/issues"
+  },
+  "homepage": "https://github.com/zohar2487/burger#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1",
-    "nodemon": "^1.19.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1"
+  }
 }
